@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Trabalho Mobile</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_menu">menu</string>
+
+</resources>
