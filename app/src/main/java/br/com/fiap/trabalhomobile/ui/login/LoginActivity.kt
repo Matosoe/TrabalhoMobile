@@ -32,7 +32,6 @@ class LoginActivity : AppCompatActivity() {
                 if (it.isSuccessful) {
                     goToHome()
                 } else {
-                    goToHome()
                     Toast.makeText(this, it.exception?.message,
                             Toast.LENGTH_SHORT).show()
                 }
