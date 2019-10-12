@@ -23,7 +23,7 @@
         android:id="@+id/tvImovie"
         android:layout_width="106dp"
         android:layout_height="54dp"
-        android:text="Imovie"
+        android:text="@string/appName"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/ivLogo"

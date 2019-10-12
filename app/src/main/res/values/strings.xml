@@ -1,9 +1,28 @@
 <resources>
-    <string name="app_name">Imovie</string>
+    <string name="appName">Imovie</string>
 
     <string name="title_activity_splash">SplashActivity</string>
     <string name="title_activity_login">LoginActivity</string>
-    <string name="title_activity_menu">menu</string>
+    <string name="title_activity_menu">Menu</string>
     <string name="title_activity_sign_in">SignInActivity</string>
+    <string name="appName">Imovie</string>
+    <string name="clapperboard">clapperboard</string>
+    <string name="eMail">e-mail</string>
+    <string name="password">password</string>
+    <string name="login">login</string>
+    <string name="signInMessage">Do not have an account yet? Click here.</string>
+    <string name="stayConnected">Stay connected?</string>
+    <string name="newUser">New User</string>
+    <string name="newAccount">New Account</string>
+    <string name="insert">Insert</string>
+    <string name="list">List</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="exit">Exit</string>
+    <string name="about">About</string>
+    <string name="title">Title</string>
+    <string name="gender">Gender</string>
+    <string name="save">Save</string>
+    <string name="back">Back</string>
 
 </resources>
