@@ -11,13 +11,15 @@
         android:paddingTop="24dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp">
+
         <TextView
+            android:id="@+id/tvNewUser"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:text="@string/newUser"
             android:textSize="40sp"
-            android:textStyle="bold"
-            android:gravity="center"/>
+            android:textStyle="bold" />
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

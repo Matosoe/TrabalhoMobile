@@ -14,7 +14,7 @@
             android:label="@string/title_activity_sign_in"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity android:name=".ui.sobre.AboutActivity" />
-        <activity android:name=".ui.edit.EditActivity" />
+        <activity android:name=".ui.edit.InsertActivity" />
         <activity
             android:name=".ui.menu.MenuActivity"
             android:label="@string/title_activity_menu"

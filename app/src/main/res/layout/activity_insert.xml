@@ -11,13 +11,15 @@
         android:paddingTop="24dp"
         android:paddingLeft="24dp"
         android:paddingRight="24dp">
+
         <TextView
+            android:id="@+id/tvInsert"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/edit"
+            android:gravity="center"
+            android:text="@string/insert"
             android:textSize="40sp"
-            android:textStyle="bold"
-            android:gravity="center"/>
+            android:textStyle="bold" />
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -49,11 +51,11 @@
         </com.google.android.material.textfield.TextInputLayout>
         <androidx.appcompat.widget.AppCompatButton
             style="@style/custom_button"
-            android:id="@+id/btSave"
+            android:id="@+id/btInsert"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
-            android:text="@string/save"/>
+            android:text="@string/insert"/>
 
         <androidx.appcompat.widget.AppCompatButton
             style="@style/custom_button"
