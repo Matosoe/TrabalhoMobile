@@ -1,4 +1,4 @@
-package br.com.fiap.trabalhomobile.ui.edit
+package br.com.fiap.trabalhomobile.ui.insert
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

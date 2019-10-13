@@ -12,10 +12,19 @@
         android:paddingRight="24dp"
         android:paddingBottom="24dp">
 
+        <TextView
+            android:id="@+id/tvLogin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="@string/login"
+            android:textSize="40sp"
+            android:textStyle="bold"/>
+
         <ImageView
             android:id="@+id/ivLogoLogin"
-            android:layout_width="160dp"
-            android:layout_height="160dp"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="24dp"
             android:contentDescription="@string/clapperboard"

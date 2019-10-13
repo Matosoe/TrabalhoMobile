@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import br.com.fiap.trabalhomobile.R
-import br.com.fiap.trabalhomobile.ui.main.MainActivity
+import br.com.fiap.trabalhomobile.ui.menu.MenuActivity
 import br.com.fiap.trabalhomobile.ui.signup.SignUpActivity
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_login.*
@@ -50,7 +50,7 @@ class LoginActivity : AppCompatActivity() {
                 newUserRequestCode)
     }
     private fun goToHome() {
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, MenuActivity::class.java)
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP)
         startActivity(intent)
         finish()
