@@ -64,7 +64,7 @@
         </com.google.android.material.textfield.TextInputLayout>
         <androidx.appcompat.widget.AppCompatButton
             style="@style/custom_button"
-            android:id="@+id/btSave"
+            android:id="@+id/btEditSave"
             android:layout_marginTop="24dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"
@@ -72,7 +72,7 @@
 
         <androidx.appcompat.widget.AppCompatButton
             style="@style/custom_button"
-            android:id="@+id/btBack"
+            android:id="@+id/btEditBack"
             android:layout_marginTop="48dp"
             android:layout_marginBottom="24dp"
             android:padding="12dp"

@@ -13,12 +13,12 @@ class EditActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_edit)
 
-        btSave.setOnClickListener{
+        btEditSave.setOnClickListener{
             //falta colocar a ação de salvar o item
             finish()
         }
 
-        btBack.setOnClickListener{
+        btEditBack.setOnClickListener{
             finish()
         }
 

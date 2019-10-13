@@ -11,10 +11,10 @@ class InsertActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_insert)
 
-        btInsert.setOnClickListener{
+        btInsertInsert.setOnClickListener{
             finish()
         }
-        btBack.setOnClickListener{
+        btInsertBack.setOnClickListener{
             finish()
         }
     }
